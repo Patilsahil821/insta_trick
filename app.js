@@ -1,7 +1,6 @@
 const express = require("express")
 const ejs = require("ejs")
 const _ = require("lodash")
-const getDay = require(__dirname + "/index.js")
 const app = express()
 const mongoose = require("mongoose")
 app.set("view engine", "ejs")
